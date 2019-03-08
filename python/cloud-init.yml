@@ -1,0 +1,6 @@
+users:
+    - name: lawrencecraft
+      sudo: ALL=(ALL)
+      passwd: $6$rounds=4096$nKbnh0PeH7sGCjH7$B06fSXYQUDGkxozWWe3bJ73lvvvTBUIya9HiDXZkRxhqjpduXWuWQD3/hWIFrs.B9WHhGFlbtaY/sLA4h5Wr30
+      ssh-authorized-keys:
+       - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEwUB1nQ6O7vQ0Ifjjf2YjsU4eCjDKrhYQOqe9LBgaII lawrencecraft@snabestation"

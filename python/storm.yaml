@@ -1,0 +1,4 @@
+storm.zookeeper.servers:
+    - "kafkab1"
+
+nimbus.seeds: ["stormcluster-1", "stormcluster-2", "stormcluster-3"]
