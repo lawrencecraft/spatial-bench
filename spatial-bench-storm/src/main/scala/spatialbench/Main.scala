@@ -4,11 +4,11 @@ import cats.effect.{ExitCode, IO, IOApp}
 
 object Main extends IOApp {
   val options = LoaderOptions(
-    sourcePath = "/root/spatial-bench3",
+    sourcePath = "/tmp/spatial-bench3",
     destFile = "test.csv",
-    kafkaBroker = "kafkab1:9092",
-    writeTopic = "spatial-bench-2",
-    readTopic = "spatial-bench-output-2"
+    kafkaBroker = "kafka-zk:9092",
+    writeTopic = "input_data",
+    readTopic = "output_data"
   )
 
   override def run(args: List[String]): IO[ExitCode] =

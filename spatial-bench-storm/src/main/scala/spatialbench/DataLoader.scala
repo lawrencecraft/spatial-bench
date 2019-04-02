@@ -16,7 +16,7 @@ object DataLoader {
 
   import Console._
 
-  val recordsPerSecond = 1000
+  val recordsPerSecond = 100000000
 
   def constructKafkaBroker(options: LoaderOptions): IO[KafkaProducer[String, String]] = IO {
     new KafkaProducer[String, String](Kafka.properties(options))
